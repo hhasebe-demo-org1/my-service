@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-service
+  annotations:
+    # Required: GitHub project slug in format "owner/repository"
+    github.com/project-slug: hhasebe-demo-org1/my-service
+    # Required: Entity source location
+    backstage.io/source-location: url:https://github.com/hhasebe-demo-org1/my-service
+spec:
+  type: service
+  lifecycle: production
+  owner: default/bkuser1
