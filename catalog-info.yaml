@@ -10,4 +10,4 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: default/hiroyha-r
+  owner: user:default/hiroyha-r
