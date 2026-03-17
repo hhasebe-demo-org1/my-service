@@ -10,4 +10,4 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: default/bkuser1
+  owner: default/hiroyha-r
